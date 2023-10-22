@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/akhilsharma90/go-twilio-verify/api"
+	"github.com/ThembinkosiThemba/go-twilio/api"
 
 	"github.com/gin-gonic/gin"
 )

@@ -27,7 +27,7 @@ go mod download
 6. Run the server
 
 ```bash
-go run cmd/main.go
+go run main.go
 ```
 
 ## API Documentation
@@ -47,7 +47,7 @@ Request Body
 ```
 
 ```bash
-curl -H "Content-Type: application/json" -X POST -d '{"phoneNumber": "+917420840576"}' http://localhost:8000/otp
+curl -H "Content-Type: application/json" -X POST -d '{"phoneNumber": "+26878170903"}' http://localhost:8000/otp
 ```
 
 _Be sure to include the country code in the phone number_
@@ -80,7 +80,7 @@ Request Body
 ```
 
 ```bash
-curl -H "Content-Type: application/json" -X POST -d '{"user": {"phoneNumber": "+917420840576"}, "code":"795279"' http://localhost:8000/verifyOTP
+curl -H "Content-Type: application/json" -X POST -d '{"user": {"phoneNumber": "+26878170309"}, "code":"795279"' http://localhost:8000/verifyOTP
 ```
 
 Response
